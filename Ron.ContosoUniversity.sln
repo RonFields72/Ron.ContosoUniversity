@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ron.ContosoUniversity", "Ron.ContosoUniversity\Ron.ContosoUniversity.csproj", "{3E6408FC-ED47-4E94-B4AE-847E78A38A9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{1A1009B4-17AD-4445-8CEC-FA74425BEABA}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{C238BA0E-A45A-4775-AC39-592449330ABD}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\RonContosoUniversity-WAWS-dev.json = PublishScripts\Configurations\RonContosoUniversity-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E6408FC-ED47-4E94-B4AE-847E78A38A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6408FC-ED47-4E94-B4AE-847E78A38A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6408FC-ED47-4E94-B4AE-847E78A38A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6408FC-ED47-4E94-B4AE-847E78A38A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C238BA0E-A45A-4775-AC39-592449330ABD} = {1A1009B4-17AD-4445-8CEC-FA74425BEABA}
+	EndGlobalSection
+EndGlobal
